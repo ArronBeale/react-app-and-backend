@@ -52,7 +52,7 @@ function App() {
   }
 
   if(isLoading) {
-    content = <p>Loading...</p>;
+    content = <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>;
   }
 
 
